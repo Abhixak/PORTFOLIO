@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 15%);
+}
+
+.background{
+    width:90%;
+    height:90%;
+    background-color: rgb(55, 71, 71);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.menu{
+
+    border-radius: 10px 0px 0px 10px;
+    width: 25%;
+    height: 100%;
+    background-color: rgb(36, 71, 59);
+    text-align: center;
+}
+
+.details{
+    width: 75%;
+    height: 100%;
+    border-left: 5px solid black;
+    border-radius: 0px 10px 10px 0px;
+    background-color: azure;
+    overflow: auto;
+}
+
+.img-logo{
+    position: relative;
+    top: 40px;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.name-logo{
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.designation{   
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.menu ul{
+    list-style-type: none;
+    position: relative;
+    top: 150px;
+}
+.menu ul li{
+    margin-bottom: 30px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px solid white;
+    padding-bottom:5px ;
+}
+
+.details::-webkit-scrollbar{
+    width: 0;
+}
