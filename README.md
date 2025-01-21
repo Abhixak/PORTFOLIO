@@ -13,7 +13,9 @@ Hello! I'm Abhishek Kumar, a passionate developer with expertise in Frontend Web
 Feel free to reach out for collaborations, questions, or just to say hi! 😊
 
 Email: devabhixak@gmail.com
+
 LinkedIn: www.linkedin.com/in/devabhixak/
+
 GitHub: https://github.com/Abhixak
 
 If you find this portfolio helpful or inspiring, don't forget to star ⭐ the repository!
